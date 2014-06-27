@@ -3,6 +3,8 @@
 
 import scala.util.Random.nextInt
 
+
+
 val adjs = List( "autumn", "hidden", "bitter", "misty", "silent",
   "empty", "dry", "dark", "summer", "icy", "delicate", "quiet", "white", "cool",
   "spring", "winter", "patient", "twilight", "dawn", "crimson", "wispy",
@@ -14,7 +16,9 @@ val adjs = List( "autumn", "hidden", "bitter", "misty", "silent",
   "polished", "purple", "lively", "nameless", "puffy", "fluffy",
   "calm", "young", "golden", "avenging", "ancestral", "ancient", "argent",
   "reckless", "daunting", "short", "rising", "strong", "timber", "tumbling",
-  "silver", "dusty")
+  "silver", "dusty", "celestial", "cosmic", "crescent", "double", "far", "half",
+  "inner", "milky", "northern", "southern", "eastern", "western", "outer",
+  "terrestrial", "huge", "deep", "epic", "titanic", "mighty", "powerful")
 
 val nouns = List("waterfall", "river", "breeze", "moon", "rain",
   "wind", "sea", "morning", "snow", "lake", "sunset", "pine", "shadow", "leaf",
@@ -27,7 +31,9 @@ val nouns = List("waterfall", "river", "breeze", "moon", "rain",
   "frog", "smoke", "star", "sierra", "castle", "fortress", "tiger", "day",
   "sequoia", "cedar", "wrath", "blessing", "spirit", "nova", "storm", "burst",
   "protector", "drake", "dragon", "knight", "fire", "king", "jungle", "queen",
-  "giant", "elemental", "throne", "game", "weed", "stone")
+  "giant", "elemental", "throne", "game", "weed", "stone", "apogee", "bang",
+  "cluster", "corona", "cosmos", "equinox", "horizon", "light", "nebula",
+  "solstice", "spectrum", "universe", "magnitude", "parallax")
 
 def getRandElt[A](xs: List[A]): A = xs.apply(nextInt(xs.size))
 
