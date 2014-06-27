@@ -3,9 +3,7 @@
 
 import scala.util.Random.nextInt
 
-
-
-val adjs = List( "autumn", "hidden", "bitter", "misty", "silent",
+val adjs = List("autumn", "hidden", "bitter", "misty", "silent",
   "empty", "dry", "dark", "summer", "icy", "delicate", "quiet", "white", "cool",
   "spring", "winter", "patient", "twilight", "dawn", "crimson", "wispy",
   "weathered", "blue", "billowing", "broken", "cold", "damp", "falling",
